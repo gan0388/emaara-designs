@@ -2,6 +2,21 @@
     padding: 10px;
 }
 
-.margin10 {
-    margin: 10px;
+/*.fullscreen_block_grid_ajax,*/
+.fullscreen_block_grid_margin_ajax,
+.fullscreen_block_grid_title_ajax {
+    padding: 0 35px 0;
+    text-align: center;
+}
+
+.page-template-page-slider-portfolio-grid-ajax .fullscreen_block_grid_ajax:before,
+.page-template-page-slider-portfolio-grid-ajax .fullscreen_block_grid_ajax:after {
+    content: "";
+    position: absolute;
+/*    width: 5px;*/
+    height: 100%;
+/*    background: #ffffff;*/
+    top: 0;
+    bottom: 0;
+    z-index: 10000;
 }

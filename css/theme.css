@@ -5810,8 +5810,13 @@ header.fs .fw_ip .fr ul.optionset {
     transition: all 0.3s;
 }
 /******* Portfolio Grid Ajax Page, Portfolio Grid Margin Ajax, Portfolio Grid Title Ajax Page *******/
+/****** /
+.fullscreen_block_grid_ajax{
+    text-align: center;
+}
 
-.fullscreen_block_grid_ajax,
+/*.fullscreen_block_grid_ajax,*/
+
 .fullscreen_block_grid_margin_ajax,
 .fullscreen_block_grid_title_ajax {
     padding: 0 35px 0;
@@ -6026,9 +6031,11 @@ header.fs .fw_ip .fr ul.optionset {
 .page-template-page-slider-portfolio-grid-ajax .fullscreen_block_grid_ajax:after {
     content: "";
     position: absolute;
-    width: 5px;
+    /*    width: 5px;*/
+    
     height: 100%;
-    background: #ffffff;
+    /*    background: #ffffff;*/
+    
     top: 0;
     bottom: 0;
     z-index: 10000;
@@ -9282,4 +9289,33 @@ only screen and (min-resolution: 144dpi) {
         background-size: 24px 48px!important;
         -webkit-background-size: 24px 48px!important;
     }
+}
+
+.mt20 {
+    margin-top: 20px;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
+
+.mt50 {
+    margin-top: 50px;
+}
+
+.white-txt div,
+.white-txt h5{
+    color: #fff !important;
+}
+
+.white-txt a {
+    color: #d8d8d8 !important;
+}
+
+.footer-border {
+    height: 200px !important;
+    border-right: 1px solid #444;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
