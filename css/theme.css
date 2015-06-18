@@ -9308,8 +9308,10 @@ only screen and (min-resolution: 144dpi) {
     color: #fff !important;
 }
 
-.white-txt a {
+.white-txt a,.white-txt textwidget{
     color: #d8d8d8 !important;
+    font-size: 14px;
+    letter-spacing: .7px;
 }
 
 .footer-border {
