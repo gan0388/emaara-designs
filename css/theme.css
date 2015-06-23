@@ -9304,20 +9304,39 @@ only screen and (min-resolution: 144dpi) {
 }
 
 .white-txt div,
-.white-txt h5{
+.white-txt h4 {
     color: #fff !important;
 }
-
-.white-txt a,.white-txt textwidget{
+.white-txt h4 {
+    text-transform: capitalize;
+}
+.white-txt a,
+.white-txt .textwidget {
     color: #d8d8d8 !important;
-    font-size: 14px;
-    letter-spacing: .7px;
+    font-size: 13px;
+    letter-spacing: 1.4px;
 }
 
 .footer-border {
-    height: 200px !important;
+    height: 150px !important;
     border-right: 1px solid #444;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
+}
+
+.ribbon {
+    padding: 2px 18px 2px 5px;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #fff;
+    background: #ea4c89 url(/assets/flag-cutout-fb12efc0f7e90af52e68acb57e7b3feb.png) no-repeat 100% 50%;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
 }
